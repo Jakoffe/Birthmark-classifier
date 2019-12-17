@@ -7,8 +7,10 @@ According to the paper: [Searching for MobileNetV3](https://arxiv.org/abs/1905.0
 - Tensorflow-gpu > 1.10.0  
 - Keras > 2.2.4
 
+For GPU support follow [Tensorflow GPU support](https://www.tensorflow.org/install/gpu)
+
 ## Data
-The data can be downloaded at https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery
+The data can be downloaded at [ISIC Dataset](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery) or use the [ISIC-Archive-Downloader](https://github.com/GalAvineri/ISIC-Archive-Downloader) created by [GalAvineri](https://github.com/GalAvineri).
 We use the following data sets: MSK-1, MSK-2, MSK-3, MSK-4, MSK-5, UDA-1, UDA-2.
 
 This gives us approximate 2282 malignant images and 10122 benign.
