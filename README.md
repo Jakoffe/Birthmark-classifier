@@ -17,7 +17,7 @@ This gives us approximate 2282 malignant images and 10122 benign.
 This can be done using Keras.preprossing.image.ImageDataGenerator, but we strive after a 50-50 benign-malignant ratio. We therefore only want to create additional malignant data.
 **Set the correct config**<br/>
 rotation = 1 #Rotate vertically = 0, horizontally = 1. <br/>
-images = 4563 #The number om images before each image augmentation process.<br/>
+images = 2282 #The number om images before each image augmentation process<br/>
 
 After first run set rotation to the inverse setting. Run on both the "old" data and the newly created in ../Modified/Vertically(or Horizontally depending on settings)
 
