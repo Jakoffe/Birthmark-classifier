@@ -1,5 +1,5 @@
 # MobileNetV3 for Birthmark classification
-The implementation from the paper into the Keras model mobileNetV3 is provided by xiaochus. No official model is published by Keras at time of writing.
+The implementation from the paper into the Keras model mobileNetV3 is provided by [Xiaochus](https://github.com/xiaochus). No official model is published by Keras at time of writing.
 According to the paper: [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244?context=cs)
 
 ## Requirement
