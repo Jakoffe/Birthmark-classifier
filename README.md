@@ -40,6 +40,7 @@ After first run set rotation to the inverse setting. Run on both the "old" data 
 Once done you should have approximate 9124 malignant images.
 
 **The dataset folder structure is as follows:**
+
 	| - Data/
 		| - Labeled/
 			| - Benign/
