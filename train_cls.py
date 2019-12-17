@@ -74,7 +74,7 @@ def train():
         model.load_weights(pre_weights, by_name=True)
 
     opt = Adam(lr=float(cfg['learning_rate']))
-    checkpoint = ModelCheckpoint(weights.{epoch:02d}-{val_loss:.2f}.hdf5, monitor='val_loss', verbose=0, save_best_only=False, save_weights_only=False, mode='auto', period=1    model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
+    checkpoint = ModelCheckpoint('weights.{epoch:02d}-{val_loss:.2f}.hdf5', monitor='val_loss', verbose=0, save_best_only=False, save_weights_only=False, mode='auto', period=1)
 
     train_generator, validation_generator, count1, count2 = generate(batch, shape[:2], cfg['train_dir'], cfg['eval_dir'])
 
