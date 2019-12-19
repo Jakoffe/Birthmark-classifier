@@ -42,7 +42,7 @@ def generate(batch, shape, ptest):
     return test_generator, count1
 
 
-def train():
+def predict():
     with open('config/config.json', 'r') as f:
         cfg = json.load(f)
 
@@ -75,4 +75,4 @@ def train():
     print(predict)
     
 if __name__ == '__main__':
-    train()
+    predict()
